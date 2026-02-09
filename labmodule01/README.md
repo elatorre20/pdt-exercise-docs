@@ -11,14 +11,17 @@ INSTRUCTIONS: Describe, in your own words, the high-level functionality of this 
 
 What does your implementation do? 
 
+In this lab module, the system configuration has been set up. The DTA and EDA, and EDT repositories have been forked and cloned, and the relevant prerequisites installed on the development machine. 
 
 How does your implementation work?
 
+N/A
 
 ### Design Diagram(s)
 
 INSTRUCTIONS: Include one or more design diagram(s) representing your solution.
 
+N/A
 
 ### Specific Features
 
