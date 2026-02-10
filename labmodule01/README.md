@@ -15,7 +15,7 @@ In this lab module, the system configuration has been set up. The DTA and EDA, a
 
 How does your implementation work?
 
-N/A
+No changes have been made from the existing repository code.
 
 ### Design Diagram(s)
 

@@ -10,15 +10,17 @@ Be sure to implement all the requirements listed at [PDT-INF-02-001 - Lab Module
 INSTRUCTIONS: Describe, in your own words, the high-level functionality of this lab module by answering the questions listed below.
 
 What does your implementation do? 
-
+This module tests the existing implementation of the EDA, its connection with the sense hat emulator, and its data translation functionality.
 
 How does your implementation work?
 
+No code changes have been made from the existing repository code. All relevant unit tests mentioned in this section of the repository have been conducted and passed. Screenshots of the results of those tests are included with this commit.
 
 ### Design Diagram(s)
 
 INSTRUCTIONS: Include one or more design diagram(s) representing your solution.
 
+N/A
 
 ### Specific Features
 
