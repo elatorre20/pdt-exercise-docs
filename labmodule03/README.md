@@ -10,15 +10,16 @@ Be sure to implement all the requirements listed at [PDT-INF-03-001 - Lab Module
 INSTRUCTIONS: Describe, in your own words, the high-level functionality of this lab module by answering the questions listed below.
 
 What does your implementation do? 
-
+This module sets up the unity project with all the core components of the digital twin system. 
 
 How does your implementation work?
-
+It imports all of the library code associated with the digital twin and implements some sample prefabs of virtual assets.
 
 ### Design Diagram(s)
 
 INSTRUCTIONS: Include one or more design diagram(s) representing your solution.
 
+N/A
 
 ### Specific Features
 
