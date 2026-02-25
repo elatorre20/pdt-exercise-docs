@@ -10,10 +10,10 @@ Be sure to implement all the requirements listed at [PDT-INF-04-001 - Lab Module
 INSTRUCTIONS: Describe, in your own words, the high-level functionality of this lab module by answering the questions listed below.
 
 What does your implementation do? 
-
+This module implements MQTT communication between the EDA and DTA.
 
 How does your implementation work?
-
+The EDA connects to an MQTT broker and publishes sensor messages in the specified format to the specified topic. The DigitalTwinManager component in the DTA connects to the MQTT broker and subscribes to these topics. The DigitalTwinManager then updates provisioned digital assets in the DTA as new messages come in.
 
 ### Design Diagram(s)
 
