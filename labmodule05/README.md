@@ -10,10 +10,10 @@ Be sure to implement all the requirements listed at [PDT-INF-05-001 - Lab Module
 INSTRUCTIONS: Describe, in your own words, the high-level functionality of this lab module by answering the questions listed below.
 
 What does your implementation do? 
-
+This module implements data integration between the EDA and DTA. In this module, provisioned virtual assets in the DTA change to reflect incoming data from the EDA. 
 
 How does your implementation work?
-
+The EDA publishes messages in a specified format to specified topics on the MQTT broker. The DigitalTwinManager component of the DTA connects to the broker, subscribes to the topic, and exposes incoming messages to other game objects. The prefabs of digital assets such as PowerGenerationSystemController and ThermostatControlAssembly can be provisioned to specific EDA instances publishing to the broker. Once they have been provisioned, they handle incoming data by updating the DTA state to match. For instance, the ThermostatControlAssembly updates the displayed temperature to match the temperature published by the EDA.
 
 ### Design Diagram(s)
 
