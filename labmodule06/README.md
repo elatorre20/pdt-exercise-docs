@@ -10,10 +10,10 @@ Be sure to implement all the requirements listed at [PDT-INF-06-001 - Lab Module
 INSTRUCTIONS: Describe, in your own words, the high-level functionality of this lab module by answering the questions listed below.
 
 What does your implementation do? 
-
+This model implements various interaction components which display information from the digital twin to the user. The HUD components allow the user to set up and monitor the state of the DTA's connection to the broker, and each digital twin asset has an individual HUD to control provisioning. A thermostat assembly is included as an example digital twin asset, with an interactible panel displaying temperature to the user and allowing command input.
 
 How does your implementation work?
-
+Several of the labbenchstudios prefabs are used in this module. DigitalTwinManager subcomponent DigitalTwinHudContainer contains the 2d UI panels that control connection to the broker. Each digital twin asset has a DigitalTwinStateManager prefab that controls the model parsing and provisioning of that specific asset. The ThermostatControlAssembly contains the displays and interaction buttons for the thermostat digital twin asset. When provisioned to an EDA instance with the thermostat type, it processes telemetry updates and pushes them to the display, as well as processing commands from the display and pushing them to the EDA instance.
 
 ### Design Diagram(s)
 
